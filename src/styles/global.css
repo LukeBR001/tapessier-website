@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.08rem;
+    text-align:center;
+}
+
+body {
+    background-color: #FFFBF5;
+}
+
+h1 {
+    padding: 2rem;
+    font-size: 2rem;
+}

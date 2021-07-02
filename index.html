@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="stylesheet" href="src/styles/global.css">
+
+    <title>Tapessier</title>
+</head>
+<body>
+    <div class="container" id="inicio">
+
+        <header class = "navbar-container" >
+            <a href="#inicio">
+                <img src="/img/icons/logo_tapessier.png" alt="Logotipo">
+            </a>
+            
+            <nav class="navbar">    
+                <button
+                aria-label="Abrir menu"
+                class="btn-mobile"
+                aria-expanded="false"
+                aria-controls="menu"
+                aria-haspopup="true"
+                >
+
+                    <span class="hamb"></span>
+
+                </button>
+                
+                <ul 
+                class="menu"
+                role="menu"
+                >
+                    
+                    <li>
+                        <a href="#inicio">Início</a>
+                    </li>
+                    <li>
+                        <a href="#sobre-nos">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#depositions">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="#orcamento">Orçamento</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contato</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <img src="/img/services/reforma-corporativo.jpg" class="img-header" alt="Imagem do cabeçalho">
+
+        <main class="main-container">
+            <section class="sobre-nos" role="region" aria-label="Seção Sobre a empresa" id="sobre-nos">
+                <h1>Sobre nós</h1>
+                <div class="card-container">
+    
+                    <div class="card">
+                        <img src="/img/icons/tempo-servico.png" alt="ícone pessoa" class="icon-cards">
+                        <h3>Tempo de Mercado</h3>
+                        <p>
+                            Estamos presentes no mercado de estofados a mais de 10 anos, sempre prezando pela excelência do nosso serviço. Um trabalho que vem sendo realizado de PAI para FILHO.
+
+                        </p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="/img/icons/sofa-icon.png" alt="ícone sofá" class="icon-cards">
+                        <h3>O que fazemos</h3>
+                        <p>Trabalhamos com todo tipo de reformas e fabricações. Reformamos todos os estofados do seu lar, fabricamos sofás sob medida, puffs, cabeceiras, capas para estofados e muito mais.</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="/img/icons/seta-crescimento.png" alt="ícone gráfico ascendente" class="icon-cards">
+                        <h3>Nossos diferenciais</h3>
+                        <p>Damos garatia de todos os nossos serviços e produtos, além de parcelarmos no cartão, SEM JUROS.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services" role="region" aria-label="Seção sobre serviços" id="services"> 
+
+                <h1>Serviços</h1>
+
+                <div class="images-container">
+                    <img src="/img/services/fabricacao-sofa.jpg" alt="foto dos serviços" class="images">
+                    <img src="/img/services/reforma-salao.jpg" alt="foto dos serviços" class="images">
+                    <img src="/img/services/reforma-grande.jpg"alt="foto dos serviços" class="images">
+
+                    <img src="/img/services/cadeira.jpg"alt="foto dos serviços" class="images">
+                    <img src="/img/services/espelho.jpg"alt="foto dos serviços" class="images">
+                    <img src="/img/services/reforma-sofa2.jpg" alt="foto dos serviços" class="images">
+                </div>
+            </section>
+            <section class="depositions" role="region" aria-label="Prints de depoimentos" id="depositions">
+
+                <h1 id="h1-dep">Depoimentos</h1>
+                <!-- MODAL -->
+                <div class="modal-dep">
+                    <div class="modal-dep-container">
+                        <img 
+                        id="modalImg" 
+                        src="" 
+                        alt="Imagem clicada"
+                        > 
+                    </div>
+
+                    <span class="btn-close-modal" aria-label="Fechar img"> &times; </span>
+
+                </div>
+                <!-- MODAL -->
+
+                <div class="grid-container">
+                    <div class="depoiments-container">
+                        <img src="/img/depositions/dep-1.jpg" alt="Prints dos depoimentos" class="images-dep">
+                        <img src="/img/depositions/dep-2.jpg" alt="Prints dos depoimentos" class="images-dep">
+                        <img src="/img/depositions/dep-3.jpg"alt="Prints dos depoimentos" class="images-dep">
+                    </div>
+                </div>
+            </section>
+            <section class="container-orcamento" role="region" aria-label="Informações para realizar orçamento" id="orcamento">
+
+                <h1>O que pode ser reformado?</h1>
+
+                <div class="checklist">
+
+                    <ul class="checklist-container">
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Sofás</span>
+                        </li>
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Puff</span>
+                        </li>
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Cadeiras</span>
+                        </li>
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Cabeceiras</span>
+                        </li>
+                    </ul>
+                    <ul class="checklist-container">
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Poltronas</span>
+                        </li>
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Almofadas</span>
+                        </li>
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Estofamentos</span>
+                        </li>
+                        <li>
+                            <img src="/img/icons/check.svg" alt="">
+                            <span>Cholchão</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="orcamento">
+                    <p>Não jogue seu sofá fora antes de agendar um orçamento sem compromisso conosco.</p>
+                    <button class="button-orcamento">
+                        <img src="/img/icons/whatsapp.svg" alt="ícone whatsapp">
+                        <label>Orçamento grátis</label>
+                    </button>
+                </div>
+
+            </section>
+            <footer class="footer-container" id="contacts">
+                <h3>Tapessier Estofados</h3>
+                <span>Reformas / Fabricações / Vendas</span>
+
+                <div class="flex-info-container">
+                    <div class="info-container">
+                        <img src="/img/icons/local.png" alt="icone de localização">
+                        <p>lorem ipsum lorem ipsim - lorem ipsum - 2100000 - LP</p>
+                    </div>
+    
+                    <div class="info-container">
+                        <img src="/img/icons/phone.png" alt="icone de telefone">
+                        <p>21 98999-9999</p>
+                        <p>21 89888-8888</p>
+                        <p>21 89888-8888</p>
+                    </div>
+                    <div class="info-container">
+                        <img src="/img/icons/contact.png" alt="icone de contato">
+                        <p>loremipsum.lorem@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/tapessier_tapessier/">
+                        <img src="/img/icons/instagram.svg" alt="icone do instagram">
+                    </a>
+                    <a href="">
+                        <img src="/img/icons/facebook (1).svg" alt="ícone do facebook">
+                    </a>
+                    <a href="">
+                        <img src="/img/icons/whatsapp.svg" alt="ícone do whatsapp">
+                    </a>
+                </div>
+
+                <div class="copyright">
+                    <img src="/img/icons/copyright.svg" alt="copyright">
+                    <span>Todos os direitos reservados - 2021</span>
+                    <a href="#" class="developer"> Web development - Lucas Eduardo</a>
+                </div>
+            </footer>
+        </main>
+    
+    </div>
+
+    <script src="/src/scripts/menuMobile.js"></script>
+    <script src="/src/scripts/modalDepositions.js"></script>
+    <script src="/src/scripts/modalServices.js"></script>
+
+    </body>
+    </html>
