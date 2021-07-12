@@ -106,6 +106,27 @@ nav.active .hamb::before{
     object-fit:cover;
 }
 
+/*
+    CSS Call-To-Action
+*/
+
+.call_to_action {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.call_to_action img{
+    width: 3rem;
+    transition: 0.2s;
+}
+
+.call_to_action img:hover {
+    width: 3.5rem;
+}
+
+
+
 
 /*
     CSS mobile Cards "sobre nós"
