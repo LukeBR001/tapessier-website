@@ -323,6 +323,7 @@ Modal e depoimentos acaba aqui
     margin: 5rem 1.5rem;
 }
 
+
 .button-orcamento {
     display: flex;
     align-items: center;
@@ -342,6 +343,7 @@ Modal e depoimentos acaba aqui
     width: 3rem;
 }
 .button-orcamento label{
+    cursor: pointer;
     color: #FAFAFA;
     font-size: 1.7rem;
     font-weight: 700;
